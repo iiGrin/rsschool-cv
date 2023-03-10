@@ -16,19 +16,45 @@
 Started studying development in September 2022. I love create something new and unusual. I want to get a lot of knowledge and practice on this course, so that ideas would be translated into reality.
 
 ---
-#### About Me
 
----
 #### Skills
-* 
+* HTML(Basic)
+* CSS(Basic)
+* JavaScript(Basic)
+* Git
+* GitHub
 ---
 
 #### Code Example
 ```
+  // functions definitions
+function onShowPrevBtnClick() {
+    currentImageIndex--
+    slideImg.src = imagesUrls[currentImageIndex]
+    showNextBtn.disabled = false
+
+    // disable prevBtn if need
+    if (currentImageIndex === 0) {
+        showPrevBtn.disabled = true
+    }
+}
+
+function onShowNextBtnClick() {
+    currentImageIndex++
+    slideImg.src = imagesUrls[currentImageIndex]
+    showPrevBtn.disabled = false
+
+    // disable nextBtn if need
+    if (currentImageIndex === (imagesUrls.length - 1)) {
+        showNextBtn.disabled = true
+    }
+}
 ```
 ---
 
 #### Education
+[It-kamasutra](https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g) - free video-courses
 
 ---
 #### English
+(B1) Upper Intermediate
